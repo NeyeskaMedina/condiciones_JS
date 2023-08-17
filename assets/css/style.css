@@ -1,0 +1,26 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+}
+.box-prime{
+    display: flex;
+    align-items: center;
+}
+h2, img{
+    margin-left: 5vw;
+}
+img{
+    border-radius: 50%;
+}
+.prev-next{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+}
+a:visited, a:hover{
+    color: rgb(13, 13, 234);
+}
+

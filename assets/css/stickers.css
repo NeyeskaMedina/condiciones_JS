@@ -1,0 +1,45 @@
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+h1{
+    color: rgb(136, 0, 255);
+}
+.box-stickers{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 8vh;
+}
+.box-stickers img{
+    border-bottom: 3px solid rgb(136, 0, 255);
+}
+input{
+    margin-top: 3vh;
+    height: 4vh;
+    width: 8vw;
+    text-align: center;
+    font-size:medium;
+}
+.button-check{
+    background-color: rgba(137, 43, 226, 0.433);
+    border: 0;
+    font-size: medium;
+    font-weight: bold;
+    border-radius: .5em;
+    width: 10vw;
+}
+.button-check:hover{
+    background-color: rgb(137, 43, 226);
+    color: white;
+}
+.rebutton{
+    margin-top: 3vh;
+}
+.prev-next{
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-top: 8vh;
+}
